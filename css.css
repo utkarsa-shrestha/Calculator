@@ -11,7 +11,7 @@ html, body{
     width: auto;
     height: auto;
 
-    background-color:  rgb(71, 71, 71)  ;
+    background-color:  rgb(39, 39, 39) ;
     border-radius: 20px;
 
     margin: 0px;
@@ -24,6 +24,7 @@ html, body{
     flex-direction: column;
 }
 .display{
+     overflow: hidden;
     width: 450px;
     height: 130px;
 
@@ -69,7 +70,7 @@ html, body{
 }
 
 .numbers{
-    background-color: rgb(255, 111, 0);
+    background-color: #305CDE;
      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
     margin: 10px;
@@ -96,7 +97,7 @@ html, body{
 
     text-align: center;
     border-radius: 10px;
-    background-color: rgb(2, 173, 173);
+    background-color: rgb(135, 62, 195);
     
     cursor: pointer;
     font-size: 20px;
@@ -108,7 +109,7 @@ html, body{
 
 }
 .operator{
-    background-color: rgb(2, 173, 173);
+    background-color: rgb(135, 62, 195);
 
     padding: 20px;
 
@@ -131,7 +132,7 @@ html, body{
     opacity: 0.8;
 }
 .clear{
-    background-color: rgb(2, 173, 173);
+    background-color: rgb(135, 62, 195);
      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
     margin: 5px;

@@ -33,6 +33,7 @@ const logic = () =>{
             break;
         case '/':
             result = first_num / second_num
+        
     }
     const print = document.querySelector('.display');
     print.textContent = result;
